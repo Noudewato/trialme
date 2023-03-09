@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<style>
+    body {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font: 1em sans-serif;
+    }
+
+    main {
+        font-family: 'Rancho', cursive;
+    }
+
+    header {
+        background-color: red;
+        color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        box-shadow: 0px 4px 8px 0px rgb(0, 0, 0, 0.3);
+        line-height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home__section {
+        background-image: url("images/istockphoto-1141066660-612x612.jpg");
+        background-size: cover;
+        background-position: center ;
+        min-height: 100vh;
+        color: white;
+        display: flex;
+        align-items: center;
+        margin-top: 80px;
+    }
+
+    .home__section .home__content{
+        width: 50%;
+        margin-left: 50px;
+    }
+
+    .home__section .home__content{
+    }
+
+    .home__section .home__content p{
+        font-size: 40px;
+    }
+
+    .header__title {
+        font-size: 16px;
+        letter-spacing: .4rem;
+        margin: 0px 20px;
+    }
+
+    .car__section {
+        min-width: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .car__box {
+        width: 290px;
+        margin: 1rem;
+        padding: 1rem;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px 0px rgb(0, 0, 0, 0.3);
+        transition: all .5s ease-in-out;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    /* .car__box:hover {
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px 0px rgb(0, 0, 0, 0.3);
+        transform: scale(1.1);
+    } */
+
+    .car__box .car__image {
+        margin: auto;
+        width: 200px;
+        height: 200px;
+    }
+
+    .car__image:hover {
+        transition: all .6s ease-in-out;
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+    .choose__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .choose__list li {
+        margin: 1rem;
+    }
+
+    .service__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about__content {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contact__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+
+<body>
+    <main>
+        <header>
+            <h1 class="header__title">
+                Hello World
+            </h1>
+
+            <p>Best car rental</p>
+        </header>
+
+        <article class="home__section">
+           <div class="home__content">
+            <h1 class="home__title">
+                RentMe
+            </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, adipisci optio voluptatum natus inventore modi.</p>
+            <button >Explore more</button>
+           </div>
+        </article>
+
+        <section class="car__section">
+            <div class="car__box">
+                <img src="images/1.png" alt="name" class="car__image">
+                <h6 class="car__name">
+                    Hundyi
+                </h6>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <!-- Pariatur ipsa eius asperiores temporibus
+                    iure eligendi minus aspernatur a quas. Neque inventore sit impedit
+                    enim quos quod commodi autem nisi in. -->
+                </p>
+            </div>
+
+            <div class="car__box">
+                <img src="images/benz.jpg" alt="name" class="car__image">
+                <h6 class="car__name">
+                    Mercedes benz
+                </h6>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <!-- Pariatur ipsa eius asperiores temporibus
+                                                        iure eligendi minus aspernatur a quas. Neque inventore sit impedit
+                                                        enim quos quod commodi autem nisi in. -->
+                </p>
+            </div>
+
+
+
+            <div class="car__box">
+                <img src="images/car_img3.png" alt="name" class="car__image">
+                <h6 class="car__name">
+                    BMW
+                </h6>
+                <p class="car__desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <!-- Pariatur ipsa eius asperiores temporibus
+                    iure eligendi minus aspernatur a quas. Neque inventore sit impedit
+                    enim quos quod commodi autem nisi in. -->
+                </p>
+            </div>
+
+            <div class="car__box">
+                <img src="images/car_img3.png" alt="name" class="car__image">
+                <h6 class="car__name">
+                    BMW
+                </h6>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <!-- Pariatur ipsa eius asperiores temporibus
+                    iure eligendi minus aspernatur a quas. Neque inventore sit impedit
+                    enim quos quod commodi autem nisi in. -->
+                </p>
+            </div>
+
+            <div class="car__box">
+                <img src="images/toyota.png" alt="name" class="car__image">
+                <h6 class="car__name">
+                    Toyota
+                </h6>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <!-- Pariatur ipsa eius asperiores temporibus
+                                iure eligendi minus aspernatur a quas. Neque inventore sit impedit
+                                enim quos quod commodi autem nisi in. -->
+                </p>
+            </div>
+
+            <div class="car__box">
+                <img src="images/car_img2.png" alt="name" class="car__image">
+                <h6 class="car__name">
+                    Audi
+                </h6>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <!-- Pariatur ipsa eius asperiores temporibus
+                                iure eligendi minus aspernatur a quas. Neque inventore sit impedit
+                                enim quos quod commodi autem nisi in. -->
+                </p>
+            </div>
+
+
+        </section>
+
+        <section class="chooseus">
+            <h2>Choose <span>Us</span></h2>
+            <ol class="choose__list">
+                <li>
+                    <p>Ghana is different... refreshingly different! Judge for yourself and feel the warmth, spontaneity
+                        and friendliness of
+                        Ghana and it's people
+                    </p>
+                </li>
+
+                <li>
+                    <p>With a private car you can freely explore remote villages, access isolated beaches, safari parks
+                        and other 'must-see'
+                        sights.
+                    </p>
+                </li>
+
+                <li>
+                    <p>With our private vehicles you can travel as you desire, make stops along the way and stay
+                        overnight where you wish
+                    </p>
+                </li>
+
+                <li>
+                    <p>Our drivers are well experienced and frequently tour the country. They are familiar with the
+                        various local languages,
+                        hotels, guesthouses and restaurants along the way.
+                    </p>
+                </li>
+            </ol>
+        </section>
+
+        <section class="aboutus">
+            <h2>About <span>Us</span></h2>
+            <div class="about__content">
+                <div class="about__text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique repellat obcaecati quam <br>
+                        libero, consequuntur enim.</p>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique repellat obcaecati quam <br>
+                        libero, consequuntur enim.
+                    </p>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique repellat obcaecati quam <br>
+                        libero, consequuntur enim.
+                    </p>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique repellat obcaecati quam <br>
+                        libero, consequuntur enim.
+                    </p>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique repellat obcaecati quam <br>
+                        libero, consequuntur enim.
+                    </p>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique repellat obcaecati quam <br>
+                        libero, consequuntur enim.
+                    </p>
+                    <hr>
+                </div>
+                <img src="https://img.freepik.com/free-vector/white-convertible-car-isolated-white-vector_53876-66815.jpg?w=1060&t=st=1678184470~exp=1678185070~hmac=0575c29209021465859616ffd9e14b28c996322b8f5c4eb8a35917710abd1d8f"
+                    alt="car vector" height="400px" width="400px">
+
+            </div>
+        </section>
+
+        <section class="services">
+            <h2 class="service__title">Our Services</h2>
+            <div class="service__content">
+                <ul>
+                    <p>Rental Rates Checkout our cars and rental rates
+
+                    </p>
+                    <ul>
+                        <p>Toyota<img width="150px" height="150px"
+                                src="https://img.freepik.com/premium-photo/red-premium-business-sedan-car-sports-configuration-white-background-3d-rendering_101266-26080.jpg"
+                                alt=""></p>
+                    </ul>
+                    <p>Rental Rates Checkout our cars and rental rates</p>
+                </ul>
+                <img src="https://img.freepik.com/premium-photo/green-premium-business-sedan-car-sports-configuration-white-background-3d-rendering_101266-26560.jpg"
+                    alt="">
+                <ul>
+                    <p>Rental Rates Checkout our cars and rental rates</p>
+                    <ul>
+                        <p>Benz<img width="150px" height="150px"
+                                src="https://img.freepik.com/premium-photo/red-premium-business-sedan-car-sports-configuration-white-background-3d-rendering_101266-26080.jpg"
+                                alt=""></p>
+                    </ul>
+                    <p>Rental Rates Checkout our cars and rental rates</p>
+                </ul>
+            </div>
+        </section>
+
+        <article class="contact">
+            <h2>Contact Us</h2>
+
+            <div class="contact__content">
+                <address class="address">
+                    <ul>
+                        <li>
+                            <p><strong>Address: </strong>Nima Road, Market GA108</p>
+                        </li>
+                        <li>
+                            <p><strong>Email: </strong><a href="mailto:">noudewatofawaz7@gmail.com</a></p>
+                        </li>
+                        <li>
+                            <p><strong>Phone Number: </strong> +233550601470/+2335640982</p>
+                        </li>
+                        <li>
+                            <p><strong>Website: </strong><a href="http://">www.carrental.com</a></p>
+                        </li>
+                    </ul>
+                </address>
+
+                <form>
+                    <fieldset>
+                        <legend>Booking Form</legend>
+                        firstName: <input type="text" name="firstName" required> lastName: <input type="text"
+                            name="lastName" required><br>
+
+                        email: <input type="email" name="email" required> password: <input type="password"
+                            name="password" required><br>
+
+                        rentFrom: <input type="date" name="rentFrom" required> rentTo: <input type="date" name="rentTo"
+                            required><br>
+
+                        gender: <br> <input type="radio" name="gender" value="male">Male<br><input type="radio"
+                            name="gender" value="female">Female<br><input type="radio" name="gender" value="other">other
+                        <br>
+
+                        Profession: <br><input type="checkbox" name="Profession" value="developer"><br><input
+                            type="checkbox" name="Profession" value="merchant"><br>
+                        cars: <select name="cars">
+                            <option value="audi">audi</option>
+                            <option value="toyota">toyota</option>
+                            <option value="hundyi">hundyi</option>
+                        </select>
+                        <button type="submit">submit</button> <button type="reset">reset</button>
+                    </fieldset>
+                </form>
+            </div>
+        </article>
+    </main>
+
+</body>
+
+</html>
+<!-- ?firstName=fawaz
+&lastName=noudewato
+&email=noudewatofawaz7%40gmail.com
+&password=12345
+&rentFrom=2023-03-07
+&rentTo=2023-03-14
+&gender=male
+&Profession=on -->
+<!-- ?firstName=owo
+&lastName=labi
+&email=oow%40gmail.com
+&password=12345
+&rentFrom=2023-03-07
+&rentTo=2023-03-07
+&gender=male
+&Profession=developer
+&cars=hundyi -->
